@@ -1,0 +1,55 @@
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    padding: 1%;
+}
+.navigation li {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+.imgHero {
+    text-align: center;
+    padding: 1%; 
+}
+ul {
+    width: 50%;
+    margin-left:auto;
+}
+section {
+    margin: auto;
+    border: 3px solid ;
+}
+.heroImg {
+    margin: 20px;
+    height: 600px;
+    padding: 25px;
+}
+p {
+    width: 500px;
+    margin: 0 auto;
+}
+button {
+    width: 200px;
+    height: 45px;
+    background-color: #227016;
+    color:aliceblue;
+}
+.resume {
+    padding: 25px;
+    text-align: center;
+}
+footer {
+    background-color: #373738;
+    vertical-align: top;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+
+}
+.footer ul {
+    width: 50%;
+    margin-left:auto;
+}
