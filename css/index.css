@@ -1,3 +1,17 @@
+ @font-face {
+          font-family: 'Bruno-Ace';
+            src:url("../src/Bruno-Ace.ttf.eot");
+            src:  url("../src/Bruno-Ace.ttf.woff") format('woff'),
+            url("../src/Bruno-Ace.ttf.svg#Bruno-Ace") format('svg'),
+            url("../src/Bruno-Ace.eot?#iefix") format('embedded-opentype'); 
+            font-weight: normal;
+            font-style: normal;
+        }
+    
+body {
+    background-color: #bfbcb5;
+}
+
 .nav {
     display: inline-block;
     vertical-align: top;
@@ -6,8 +20,12 @@
 }
 .navigation li {
     display:inline-block;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
+}
+.navigation {
+    width: 95%;
+    padding: 1%;
 }
 .imgHero {
     text-align: center;
@@ -18,21 +36,27 @@ ul {
     margin-left:auto;
 }
 section {
-    margin: auto;
-    border: 3px solid ;
+    margin: 5px;
 }
 .heroImg {
     margin: 20px;
     height: 600px;
     padding: 25px;
 }
+h1 {
+    text-align: center;
+    margin: 8px;
+    font-family: 'Bruno-Ace', 'Black Ops One', cursive;
+}
 p {
     width: 500px;
     margin: 0 auto;
+    font-family: 'Merriwather Sans', Arial, Helvetica, sans-serif;
 }
 button {
     width: 200px;
     height: 45px;
+    margin-bottom: 5px;
     background-color: #227016;
     color:aliceblue;
 }
@@ -49,7 +73,8 @@ footer {
     padding: 1px;
 
 }
-.footer ul {
-    width: 50%;
-    margin-left:auto;
+
+li{
+    display: inline-block;
+    margin: 5px;
 }
